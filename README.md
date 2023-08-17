@@ -3,7 +3,7 @@
  
 
 <h2>Description</h2>
-Active Directory configuration lab using Oracle Virtual Box.
+Active Directory Configuration Lab using Oracle Virtual Box.
 <br />
 
 
@@ -19,32 +19,26 @@ Active Directory configuration lab using Oracle Virtual Box.
 <h2>Program walk-through:</h2>
 
 <p align="center">
-Launch the utility: <br/>
-<img src="https://i.imgur.com/62TgaWL.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ Network Diagram for this lab: <br/>
+<img src="img/Screenshot 2023-08-17 192312.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<br />
+First, I installed Windows 2022 on Virtual Box and operated basic configurations for Domain Controller, and used PowerShell script to add 1000 new users automatically on the domain
+ <br/>
+<img src="img/Screenshot 2023-08-17 123815.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Select the disk:  <br/>
-<img src="https://i.imgur.com/tcTyMUE.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <br/>
+ I set up DHCP and established a connection to the Internal Network using a virtual client computer (Windows 10). The client successfully communicated with the Domain Controller server's domain and was also able to ping www.google.com. This indicates that the client is capable of accessing the internet through the Domain Controller.
+<img src="img/Screenshot 2023-08-16 140815.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+ <img src="img/Screenshot 2023-08-17 180208.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 <br />
 <br />
-Enter the number of passes: <br/>
-<img src="https://i.imgur.com/nCIbXbg.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+Lastly, I installed AD CS (Certificate Service) and enabled SMB file share service for the future lab: <br/>
+<img src="img/Screenshot 2023-08-17 143243.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 <br />
 <br />
-Confirm your selection:  <br/>
-<img src="https://i.imgur.com/cdFHBiU.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Wait for process to complete (may take some time):  <br/>
-<img src="https://i.imgur.com/JL945Ga.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Sanitization complete:  <br/>
-<img src="https://i.imgur.com/K71yaM2.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-<br />
-<br />
-Observe the wiped disk:  <br/>
-<img src="https://i.imgur.com/AeZkvFQ.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+
 </p>
 
 <!--
