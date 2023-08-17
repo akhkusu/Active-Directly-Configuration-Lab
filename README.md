@@ -1,6 +1,6 @@
 <h1>Active Derectory Home Lab</h1>
 
- ### [YouTube Demonstration](https://youtuexJVCqJo)
+ 
 
 <h2>Description</h2>
 Active Directory home lab using Oracle Virtual Box.
@@ -10,7 +10,7 @@ Active Directory home lab using Oracle Virtual Box.
 <h2>Languages and Utilities Used</h2>
 
 - <b>PowerShell</b> 
-- <b>Diskpart</b>
+- <b>Virtual Box</b>
 
 <h2>Environments Used </h2>
 
