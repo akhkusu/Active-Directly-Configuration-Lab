@@ -1,9 +1,9 @@
-<h1>Active Derectory Home Lab</h1>
+<h1>Active Derectory Configuration Lab</h1>
 
  
 
 <h2>Description</h2>
-Active Directory home lab using Oracle Virtual Box.
+Active Directory configuration lab using Oracle Virtual Box.
 <br />
 
 
