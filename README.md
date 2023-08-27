@@ -1,7 +1,7 @@
 <h1>Active Derectory Configuration Lab</h1>
 
  
- ### [YouTube Video for brief overview ](https://www.youtube.com/watch?v=sRi7qTpZLLI)
+ ### [YouTube Video for this project ](https://www.youtube.com/watch?v=sRi7qTpZLLI)
 
 
 <h2>Description</h2>
