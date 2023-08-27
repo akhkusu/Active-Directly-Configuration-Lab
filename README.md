@@ -1,6 +1,8 @@
 <h1>Active Derectory Configuration Lab</h1>
 
  
+ ### [YouTube Video for brief overview ](https://www.youtube.com/watch?v=sRi7qTpZLLI)
+
 
 <h2>Description</h2>
 Active Directory Configuration Lab using Oracle Virtual Box.
